@@ -32,7 +32,7 @@ cur_maria.execute("""
     INNER JOIN Source s ON d.sourceId = s.id
 """)
 
-target_db_path = Path("/Users/vio/Downloads/Language/sqlite/dex.db")
+target_db_path = Path("dex.db")
 
 target_db_path.unlink(missing_ok=True)
 
