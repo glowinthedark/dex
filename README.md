@@ -6,7 +6,7 @@
 
 ### Importing the SQL dump into a SQLite database
 
-From terminal:
+Run from terminal:
 
 ```bash
 sqlite3 DEX.db < dex.sql
