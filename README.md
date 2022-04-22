@@ -3,3 +3,11 @@
 ### External sources
 - mariadb database dump: https://dexonline.ro/static/download/dex-database.sql.gz
 - php backend https://github.com/dexonline/dexonline
+
+### Importing the SQL dump into a SQLite database
+
+From terminal:
+
+```bash
+sqlite3 DEX.db < dex.sql
+```
