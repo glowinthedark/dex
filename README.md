@@ -13,6 +13,6 @@ Run from terminal:
 # unpack the tgz file:
 tar xzvf dexonline.sql.tgz
 
-create an SQLite database from the dump
+# create an SQLite database from the dump
 sqlite3 DEX.db < dex.sql
 ```
